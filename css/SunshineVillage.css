@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Calibri');
+@import url('https://fonts.googleapis.com/css?family=sans-serif');
+.video{
+text-align: center;
+margin-top: 20px;
+}
+.contenu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Title{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 10px;
+    }
+.Text{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.Text2{
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+}

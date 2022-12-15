@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Calibri');
+@import url('https://fonts.googleapis.com/css?family=monospace');
+@import url('https://fonts.googleapis.com/css?family=sans-serif');
+
+.Title{
+font-size:40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+.Text{
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-align: justify;
+}
+.sousTitre{
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 70% 29%;
+}
+.image1{
+    width: 100%;
+    margin-left: 10px;
+    height: 250px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-right: 20px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+

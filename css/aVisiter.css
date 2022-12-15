@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Times New Roman');
+@import url('https://fonts.googleapis.com/css?family=sans-serif');
+
+.boxContainer {
+    display: block;
+}
+
+.box {
+    flex: 1;
+    font-size: 15px;
+    min-width: 150px;
+    text-align: justify;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+
+.box1-2 {
+    background-color:lightblue;
+}
+
+.title {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.img {
+    width: 100%;
+    padding: 3% 3%;
+}
+.img1 {
+    
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.text {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.misePage{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width : 800px) {
+    .boxContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+}
